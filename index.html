@@ -805,6 +805,374 @@
               <p>Fill in synonym sets using first-two-letter hints.</p>
               <button onclick="openSetChallenge()">Take Challenge</button>
             </div>
+            <div class="feature-card">
+              <h3>Descriptive Language List</h3>
+              <p>Learn how to transform plain sentences into vivid, descriptive language with real examples.</p>
+              <button onclick="openApp('desc-lang-app')">View Examples</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- DESCRIPTIVE LANGUAGE LIST APP -->
+        <section class="app-screen" id="desc-lang-app">
+          <div class="app-header">
+            <div>
+              <h3>Descriptive Language List</h3>
+              <p class="muted-subtitle">Examples of transforming simple statements into vivid, descriptive language</p>
+            </div>
+            <button class="back-btn" onclick="openApp('en-screen')">Back to EN ALRAS</button>
+          </div>
+
+          <div style="overflow-y: auto; flex: 1;">
+            <!-- OBSERVATION & PERCEPTION -->
+            <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Observation & Perception</h4>
+            <table class="history-table">
+              <thead>
+                <tr>
+                  <th style="width: 30%;">Plain Version</th>
+                  <th style="width: 70%;">Descriptive Language</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>The students wanted to meet/looked at us.</td>
+                  <td>Forty pairs of eager, curious eyes looked at us, trailing our every moment as soon as we walked in.</td>
+                </tr>
+                <tr>
+                  <td>Staring at the words.</td>
+                  <td>Hungry eyes were glued to the unfamiliar, chalky words, ready to devour them and commit them to memory.</td>
+                </tr>
+                <tr>
+                  <td>I looked at others.</td>
+                  <td>I peered at the head of the queue and observed how it was played.</td>
+                </tr>
+                <tr>
+                  <td>People looked at the artworks.</td>
+                  <td>People were pointing and admiring the artworks illustrating our earth and environment at the corner of the covered playground.</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- EMOTION & FRUSTRATION -->
+            <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Emotion & Frustration</h4>
+            <table class="history-table">
+              <thead>
+                <tr>
+                  <th style="width: 30%;">Plain Version</th>
+                  <th style="width: 70%;">Descriptive Language</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Looking at the math equations, frustrated and annoyed.</td>
+                  <td>Feel defeated and exasperated staring at the unfathomable (incomprehensible) math equations I have been working on for hours.</td>
+                </tr>
+                <tr>
+                  <td>Looking at the math equations, frustrated and annoyed</td>
+                  <td>They looked agitated (anxious), staring at the paper with blank eyes. They furrowed their eyebrows and rubbed their scalp with apprehension (nerve), having no idea what the question was all about.</td>
+                </tr>
+                <tr>
+                  <td>Cried</td>
+                  <td>The shimmering tears streaming down his face and uncontrollable shaking hands.</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- JOY & HAPPINESS -->
+            <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Joy & Happiness</h4>
+            <table class="history-table">
+              <thead>
+                <tr>
+                  <th style="width: 30%;">Plain Version</th>
+                  <th style="width: 70%;">Descriptive Language</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>They were very happy.</td>
+                  <td>The kids giggled when they got paint on their cherubic faces.</td>
+                </tr>
+                <tr>
+                  <td>They were very happy.</td>
+                  <td>Seeing the exuberant (cheerful) kid's smiles and radiant eyes on their cherubic faces, it struck me to believe that witnessing their change was what I loved most about my job.</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- CHALLENGES & ADVERSITY -->
+            <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Challenges & Adversity</h4>
+            <table class="history-table">
+              <thead>
+                <tr>
+                  <th style="width: 30%;">Plain Version</th>
+                  <th style="width: 70%;">Descriptive Language</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Challenges in life that we must go through.</td>
+                  <td>Life always throws hindrances onto our faces and it was a rite of passage for all of us to encounter hurdles and hardships in life.</td>
+                </tr>
+                <tr>
+                  <td>Feeling nervous when walking into a noisy classroom.</td>
+                  <td>My hands clammy, my heart staggering and my numb legs shaking slightly as I walked into a classroom of boisterous students.</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- PHYSICAL SETTINGS & ATMOSPHERE -->
+            <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Physical Settings & Atmosphere</h4>
+            <table class="history-table">
+              <thead>
+                <tr>
+                  <th style="width: 30%;">Plain Version</th>
+                  <th style="width: 70%;">Descriptive Language</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>It was a small, old classroom.</td>
+                  <td>It was matchbox-sized, its wooden desks and chairs needed repair, and paint was falling off the walls.</td>
+                </tr>
+                <tr>
+                  <td>Fragile building</td>
+                  <td>The whole building was more origami than cement...</td>
+                </tr>
+                <tr>
+                  <td>It was crowded.</td>
+                  <td>There were countless people queuing for the stalls to play the games, including curious teachers, exuberant (cheerful) students who were eager to get the treats and people from the neighbourhood.</td>
+                </tr>
+                <tr>
+                  <td>Our team's mission on the service trip was to refurbish the school as it was just so old.</td>
+                  <td>The whole building was more origami than cement: papery, fragile and wouldn't stand a chance in strong wind and rain. Refurbishing it required a lot of work as the facade of the school looked miserable: so much paint had chipped off that they didn't even bother to clean the fallen pieces on the ground.</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- PERFORMANCE & SKILL -->
+            <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Performance & Skill</h4>
+            <table class="history-table">
+              <thead>
+                <tr>
+                  <th style="width: 30%;">Plain Version</th>
+                  <th style="width: 70%;">Descriptive Language</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>They did not sing and dance very well.</td>
+                  <td>The kids' singing was off-key, their pronunciation off-kilter, and their dancing off-balance.</td>
+                </tr>
+                <tr>
+                  <td>Singing loudly</td>
+                  <td>They sang at the top of their lungs.</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- TIME & ATMOSPHERE -->
+            <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Time & Atmosphere</h4>
+            <table class="history-table">
+              <thead>
+                <tr>
+                  <th style="width: 30%;">Plain Version</th>
+                  <th style="width: 70%;">Descriptive Language</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>It was late afternoon</td>
+                  <td>The sun was setting, its remaining hues coloring the mural crimson and gold.</td>
+                </tr>
+                <tr>
+                  <td>It was late afternoon</td>
+                  <td>I stared at the shimmering sun shining at its finest, furthering down the horizon, colouring the purplish crimson sky above me.</td>
+                </tr>
+                <tr>
+                  <td>It was late afternoon</td>
+                  <td>Mesmerized by the splendor and grandeur of the magnificent view before my eyes, I thought about...</td>
+                </tr>
+                <tr>
+                  <td>It made me reflect that...</td>
+                  <td>The ocean breezes brushed my face, leaving a symphony of reminiscence, reminding us how we may all feel lost sometimes, regardless of our identities, how one's nimbleness (wit) in the brain doesn't determine our altitude of success but relentless effort.</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- INSPIRATION & MOTIVATION -->
+            <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Inspiration & Motivation</h4>
+            <table class="history-table">
+              <thead>
+                <tr>
+                  <th style="width: 30%;">Plain Version</th>
+                  <th style="width: 70%;">Descriptive Language</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Affected by students' enthusiasm for learning.</td>
+                  <td>Their enthusiasm for learning a new language was so contagious that I thought I could no longer hide behind my self-preservation anymore.</td>
+                </tr>
+                <tr>
+                  <td>I was relaxed and so focused that I only paid attention to the...</td>
+                  <td>Throwing caution to the wind, I lost myself in the chaotic, lively rhythm.</td>
+                </tr>
+                <tr>
+                  <td>I was relaxed and so focused that I only paid attention to the...</td>
+                  <td>They devoted themselves to the realm of algebra and equations.</td>
+                </tr>
+                <tr>
+                  <td>Determined</td>
+                  <td>With steadfast (unwavering) determination and tenacity (determination), I witness them flourish and improve, finally understanding the crux (core) and essence of mathematics.</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- HARD WORK & EFFORT -->
+            <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Hard Work & Effort</h4>
+            <table class="history-table">
+              <thead>
+                <tr>
+                  <th style="width: 30%;">Plain Version</th>
+                  <th style="width: 70%;">Descriptive Language</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Determined</td>
+                  <td>Together, we spent copious (ample) amounts of time and lavished (spent) astronomical (abundant) amount of painstaking (extremely careful and correct) effort on maths every lesson.</td>
+                </tr>
+                <tr>
+                  <td>Studied hard at midnight</td>
+                  <td>I studied well into the night when the whole world was asleep and quiet. There was no sound except my pencil furiously scratching the surface of the rough worksheet as I was pouring all my effort into finding... seconds turned into minutes, and minutes into hours, my once sharp concentration dissolved into misty yawns.</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- CONNECTION & RELATIONSHIPS -->
+            <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Connection & Relationships</h4>
+            <table class="history-table">
+              <thead>
+                <tr>
+                  <th style="width: 30%;">Plain Version</th>
+                  <th style="width: 70%;">Descriptive Language</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>We shared a moment together.</td>
+                  <td>We huddled together and held hands in a beautiful moment of solidarity.</td>
+                </tr>
+                <tr>
+                  <td>Mr Henry helped me practice pronunciation to correct my mistakes.</td>
+                  <td>Mr. Henry patiently listened as I struggled with the tricky "th" sound, gently correcting me with each attempt. "Think of it as pleasing your tongue between your teeth," he said, his encouraging nods and clear demonstrations turning my mistakes into stepping stones for improvement.</td>
+                </tr>
+                <tr>
+                  <td>We argued with one another when finding the way to the campsite.</td>
+                  <td>We found ourselves arguing over the best way to the campsite; each of us was convinced our route was the right one. Frustration bubbled as we debated, pointing at maps and gesturing wildly. The excitement of the adventure was overshadowed by our stubbornness.</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- TEACHING & LEARNING -->
+            <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Teaching & Learning</h4>
+            <table class="history-table">
+              <thead>
+                <tr>
+                  <th style="width: 30%;">Plain Version</th>
+                  <th style="width: 70%;">Descriptive Language</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Ms Hui helped me memorise the eye structure more easily.</td>
+                  <td>Ms. Hui guided me through the eye structure using engaging visuals and hands-on models, breaking down complex concepts like the cornea, retina, and iris into simpler parts. By associating each structure with real-life examples — like the cornea being the clear protective layer, the retina acting like a camera film, and the iris controlling the light entering the eye — she made memorizing the details feel effortless and even fun.</td>
+                </tr>
+                <tr>
+                  <td>The audience was laughing at our dance performance.</td>
+                  <td>The audience erupted in laughter during our dance performance, their cheerful reactions echoing in the room. As we stumbled through a particularly tricky move, the joy in their eyes and the sound of their laughter transformed our nervousness into shared delight.</td>
+                </tr>
+                <tr>
+                  <td>Mr Hsu used strings to demonstrate wave movements.</td>
+                  <td>Mr. Hsu used colorful strings to vividly demonstrate wave movements, pulling and releasing them to create rippling patterns. As he manipulated the strings, the waves traveled smoothly, making the concepts of amplitude and frequency come alive in a way that was both visual and engaging.</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- SPACES & OBJECTS -->
+            <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Spaces & Objects</h4>
+            <table class="history-table">
+              <thead>
+                <tr>
+                  <th style="width: 30%;">Plain Version</th>
+                  <th style="width: 70%;">Descriptive Language</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>I saw plain bags in the Art Room.</td>
+                  <td>Stepping into the Art Room, where the activity was held, I was stunned to see that dozens of plain bags of different sizes were neatly placed on each table, waiting to be painted in various vivid colours.</td>
+                </tr>
+                <tr>
+                  <td>Students and teachers wanted to design some bags.</td>
+                  <td>Many students and teachers were sitting on the chairs and staring at the paints, probably thinking about how to design their bags.</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- PERSONALITY TYPES & GROUPS -->
+            <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Personality Types & Groups</h4>
+            <table class="history-table">
+              <thead>
+                <tr>
+                  <th style="width: 30%;">Plain Version</th>
+                  <th style="width: 70%;">Descriptive Language</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Big readers</td>
+                  <td>Bookworms had their faces glued to bestselling paperbacks, each absorbed in their own fictional world.</td>
+                </tr>
+                <tr>
+                  <td>Football fanatics</td>
+                  <td>Football fanatics gesticulated (using gestures to showcase) wildly like pollinating bees as they discussed match tactics.</td>
+                </tr>
+                <tr>
+                  <td>Gossip girls</td>
+                  <td>Rumourmongers gasped and giggled as they traded the latest news about the biggest names in the K-pop world.</td>
+                </tr>
+                <tr>
+                  <td>Math enthusiasts</td>
+                  <td>Math aficionados tutored someone mathematically challenged.</td>
+                </tr>
+                <tr>
+                  <td>History enthusiasts</td>
+                  <td>History buffs patiently explained 19th-century European politics.</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- COLLECTIVE PURPOSE -->
+            <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Collective Purpose</h4>
+            <table class="history-table">
+              <thead>
+                <tr>
+                  <th style="width: 30%;">Plain Version</th>
+                  <th style="width: 70%;">Descriptive Language</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Different parties working towards the same goal.</td>
+                  <td>These cliques (groups) were self-contained universes; they ran in parallel orbits that would never meet.</td>
+                </tr>
+                <tr>
+                  <td>Different parties working towards the same goal.</td>
+                  <td>When one of us was in need, the orbits would defy even the laws of nature and converge because what gravitated us toward each other was the same goal.</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </section>
 
@@ -898,118 +1266,14 @@
             <button class="back-btn" onclick="openApp('en-screen')">Back to EN ALRAS</button>
           </div>
           
-          <div class="history-table">
-            <table>
-              <thead>
-                <tr><th>Update</th><th>Date</th><th>Description</th></tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>UI Layout Update</td>
-                  <td>Today</td>
-                  <td>Transitioned to a professional dark mode interface and fixed navigation routing issues.</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </section>
-        
-        <!-- GEOGRAPHY APPS -->
-        <section class="app-screen" id="geog-c1-app">
-          <div class="app-header">
-            <div>
-              <h3>[C1] Plate Tectonics</h3>
-              <p class="muted-subtitle">Plate Tectonics: lithospheric plates, plate boundaries, and tectonic processes.</p>
-            </div>
-            <button class="back-btn" onclick="openApp('geog-screen')">Back to GEOG ALRAS</button>
-          </div>
-
-          <div class="history-table">
-            <iframe src="geogc1.html" style="width: 100%; min-height: 600px; border: none; background: var(--surface); border-radius: var(--radius-md);"></iframe>
-          </div>
-        </section>
-
-        <section class="app-screen" id="geog-c2-app">
-          <div class="app-header">
-            <div>
-              <h3>[C2] River and Coast</h3>
-              <p class="muted-subtitle">River systems and coastal processes: fluvial erosion, deposition, and marine features.</p>
-            </div>
-            <button class="back-btn" onclick="openApp('geog-screen')">Back to GEOG ALRAS</button>
-          </div>
-
-          <div class="history-table">
-            <iframe src="geogc2.html" style="width: 100%; min-height: 600px; border: none; background: var(--surface); border-radius: var(--radius-md);"></iframe>
-          </div>
-        </section>
-
-        <section class="app-screen" id="geog-c3-app">
-          <div class="app-header">
-            <div>
-              <h3>[C3] Industry</h3>
-              <p class="muted-subtitle">Industrial geography: location factors, industrial systems, and economic impacts.</p>
-            </div>
-            <button class="back-btn" onclick="openApp('geog-screen')">Back to GEOG ALRAS</button>
-          </div>
-
-          <div class="history-table">
-            <iframe src="geogc3.html" style="width: 100%; min-height: 600px; border: none; background: var(--surface); border-radius: var(--radius-md);"></iframe>
-          </div>
-        </section>
-
-        <section class="app-screen" id="geog-c5-app">
-          <div class="app-header">
-            <div>
-              <h3>[C5] Farming and Famine</h3>
-              <p class="muted-subtitle">Agricultural systems and food security: farming practices and famine issues.</p>
-            </div>
-            <button class="back-btn" onclick="openApp('geog-screen')">Back to GEOG ALRAS</button>
-          </div>
-
-          <div class="history-table">
-            <iframe src="geogc5.html" style="width: 100%; min-height: 600px; border: none; background: var(--surface); border-radius: var(--radius-md);"></iframe>
-          </div>
-        </section>
-
-        <section class="app-screen" id="geog-c6-app">
-          <div class="app-header">
-            <div>
-              <h3>[C6] Tropical Rainforests</h3>
-              <p class="muted-subtitle">Rainforest ecosystems: biodiversity, climate, and human impacts.</p>
-            </div>
-            <button class="back-btn" onclick="openApp('geog-screen')">Back to GEOG ALRAS</button>
-          </div>
-
-          <div class="history-table">
-            <iframe src="geogc6.html" style="width: 100%; min-height: 600px; border: none; background: var(--surface); border-radius: var(--radius-md);"></iframe>
-          </div>
-        </section>
-
-        <section class="app-screen" id="geog-c7-app">
-          <div class="app-header">
-            <div>
-              <h3>[C7] Climate Change</h3>
-              <p class="muted-subtitle">Climate science and change: causes, impacts, and mitigation strategies.</p>
-            </div>
-            <button class="back-btn" onclick="openApp('geog-screen')">Back to GEOG ALRAS</button>
-          </div>
-
-          <div class="history-table">
-            <iframe src="geogc7.html" style="width: 100%; min-height: 600px; border: none; background: var(--surface); border-radius: var(--radius-md);"></iframe>
-          </div>
-        </section>
-
-        <section class="app-screen" id="geog-e1-app">
-          <div class="app-header">
-            <div>
-              <h3>[E1] Dynamic Earth</h3>
-              <p class="muted-subtitle">Dynamic Earth: types of rocks, formation, internal and external processes.</p>
-            </div>
-            <button class="back-btn" onclick="openApp('geog-screen')">Back to GEOG ALRAS</button>
-          </div>
-
-          <div class="history-table">
-            <iframe src="geoge1.html" style="width: 100%; min-height: 600px; border: none; background: var(--surface); border-radius: var(--radius-md);"></iframe>
+          <div style="background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 24px;">
+            <ul style="list-style: none; padding: 0;">
+              <li style="margin-bottom: 16px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
+                <strong style="color: var(--primary);">UI Layout Update</strong><br>
+                <span style="color: var(--muted); font-size: 0.9rem;">Today</span><br>
+                Transitioned to a professional dark mode interface and fixed navigation routing issues.
+              </li>
+            </ul>
           </div>
         </section>
 
