@@ -1256,6 +1256,1355 @@
           </div>
         </section>
 
+        <!-- GEOG C1: PLATE TECTONICS -->
+        <section class="app-screen" id="geog-c1-app">
+          <div class="app-header">
+            <div>
+              <h3>[C1] Plate Tectonics</h3>
+              <p class="muted-subtitle">Lithospheric plates, plate boundaries, and tectonic processes.</p>
+            </div>
+            <button class="back-btn" onclick="openApp('geog-screen')">Back to GEOG ALRAS</button>
+          </div>
+
+          <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Structure of the Earth</h4>
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th style="width: 12%;">Layer</th>
+                <th style="width: 18%;">Temperature and Depth</th>
+                <th style="width: 18%;">Density and Pressure</th>
+                <th style="width: 15%;">Composition</th>
+                <th style="width: 20%;">Division</th>
+                <th style="width: 17%;">State</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="2">Crust</td>
+                <td rowspan="2">Lowest and shallow</td>
+                <td rowspan="2">Lowest</td>
+                <td rowspan="2">Silica</td>
+                <td>Continental</td>
+                <td rowspan="2">Solid</td>
+              </tr>
+              <tr><td>Oceanic</td></tr>
+              <tr>
+                <td rowspan="3">Mantle</td>
+                <td rowspan="3">Higher and deeper</td>
+                <td rowspan="3">Higher</td>
+                <td rowspan="3">Fe + Mg</td>
+                <td>Uppermost</td>
+                <td>Solid</td>
+              </tr>
+              <tr><td>Asthenosphere</td><td>Plastic</td></tr>
+              <tr><td>Lower mantle</td><td>Solid</td></tr>
+              <tr>
+                <td rowspan="2">Core</td>
+                <td rowspan="2">Highest and deepest</td>
+                <td rowspan="2">Highest</td>
+                <td rowspan="2">Fe + Ni</td>
+                <td>Outer</td>
+                <td>Liquid</td>
+              </tr>
+              <tr><td>Inner</td><td>Solid</td></tr>
+            </tbody>
+          </table>
+
+          <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Types of Plate Boundaries</h4>
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th style="width: 20%;">Type</th>
+                <th style="width: 80%;">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Divergent</td>
+                <td>Sea-floor spreading</td>
+              </tr>
+              <tr>
+                <td>Convergent</td>
+                <td>Mainly Circum-Pacific Belt // Alpine-Himalayan Belt</td>
+              </tr>
+              <tr>
+                <td>Transform</td>
+                <td>
+                  - North American Plate and Pacific Plate<br>
+                  - North American Plate & Caribbean Plate<br>
+                  - South American Plate & Scotia Plate
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Formation of Landform - Divergent</h4>
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th style="width: 20%;">Feature</th>
+                <th style="width: 80%;">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Plate Boundary</td>
+                <td>Constructive</td>
+              </tr>
+              <tr>
+                <td>Force</td>
+                <td>Tensional</td>
+              </tr>
+              <tr>
+                <td>Continental-Continental</td>
+                <td>
+                  - Rift valley (e.g. East African Rift): central block sinks<br>
+                  - Normal faults → hanging wall displaced downward<br>
+                  - Magma rises through lines of weakness → lava ejected → cools and solidifies → volcanoes
+                </td>
+              </tr>
+              <tr>
+                <td>Oceanic-Oceanic</td>
+                <td>
+                  - Mid-oceanic ridge: magma rises → lava flows out → cools and solidifies → new crustal materials form<br>
+                  - Age of rock is younger near mid-oceanic ridge
+                </td>
+              </tr>
+              <tr>
+                <td>Internal Process</td>
+                <td>Faulting // volcanism</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Formation of Landform - Convergent</h4>
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th style="width: 20%;">Feature</th>
+                <th style="width: 80%;">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Plate Boundary</td>
+                <td>Destructive</td>
+              </tr>
+              <tr>
+                <td>Force</td>
+                <td>Compressional</td>
+              </tr>
+              <tr>
+                <td>Continental-Continental</td>
+                <td>
+                  - Fold mountains: sediment compacted → folded up due to compressional force → uplifted (e.g. Himalayas)<br>
+                  - Reverse faults: hanging wall displaced upward
+                </td>
+              </tr>
+              <tr>
+                <td>Oceanic-Oceanic</td>
+                <td>
+                  - Ocean trenches: denser plate subducts → formed in subduction zone (e.g. Java Trench)<br>
+                  - Volcanic island arc (e.g. Islands of Indonesia)
+                </td>
+              </tr>
+              <tr>
+                <td>Oceanic-Continental</td>
+                <td>
+                  - Ocean trenches (e.g. Peru-Chile Trench)<br>
+                  - Fold mountain: oceanic plate subducts below continental → uplifted (e.g. Andes)
+                </td>
+              </tr>
+              <tr>
+                <td>Internal Process</td>
+                <td>Folding // faulting // volcanism</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Formation of Landform - Transform</h4>
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th style="width: 20%;">Feature</th>
+                <th style="width: 80%;">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Plate Boundary</td>
+                <td>Conservative</td>
+              </tr>
+              <tr>
+                <td>Force</td>
+                <td>Shearing</td>
+              </tr>
+              <tr>
+                <td>All Types</td>
+                <td>Transform faults (e.g. San Andreas Fault)</td>
+              </tr>
+              <tr>
+                <td>Volcanism</td>
+                <td>Hot spots: continuous extrusion of lava above hot spot → volcano grows → plate moves → older volcano becomes extinct → newer volcano formed</td>
+              </tr>
+              <tr>
+                <td>Internal Process</td>
+                <td>Faulting // volcanism</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Tectonic Hazards</h4>
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th style="width: 20%;">Hazard</th>
+                <th style="width: 80%;">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Earthquake</td>
+                <td>
+                  - Plates collide/diverge/slide past → force generated → stress builds up → stress exceeds strength of rock → rock breaks and displaces → energy moves in seismic waves → shaking<br>
+                  - Frequently in convergent and transform boundaries
+                </td>
+              </tr>
+              <tr>
+                <td>Tsunami</td>
+                <td>
+                  - Plates collide/diverge → release of immense energy → violent shaking → vertical movement of ocean floor → set off big wave that piles up near shallow shore<br>
+                  - Frequently in convergent boundaries
+                </td>
+              </tr>
+              <tr>
+                <td>Volcanic Eruption</td>
+                <td>
+                  - Subducted crust melts into magma → magma rises → lava ejected → cools and solidifies → volcanoes<br>
+                  - Frequently in convergent / divergent / hot spots
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Measures</h4>
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th style="width: 20%;">Measure</th>
+                <th style="width: 40%;">Effective</th>
+                <th style="width: 40%;">Ineffective</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Monitoring / forecasting / warning systems</td>
+                <td>
+                  - More time for evacuation<br>
+                  - Raise awareness and preparedness
+                </td>
+                <td>
+                  - Low level of technology → unable to predict precisely<br>
+                  - Low input of capital → no maintenance<br>
+                  - Corruption → inefficient government
+                </td>
+              </tr>
+              <tr>
+                <td>Hazard-proof designs</td>
+                <td>Prevent collapse of buildings → lower casualties</td>
+                <td>
+                  - Low availability of capital<br>
+                  - Low availability of technology<br>
+                  - Corruption → difficult to enforce building laws
+                </td>
+              </tr>
+              <tr>
+                <td>Land-use planning</td>
+                <td>
+                  - Help government plan and formulate policies<br>
+                  - Avoid building facilities with potential dangers<br>
+                  - Impose laws governing height and structure of buildings
+                </td>
+                <td>
+                  - Low accuracy of identifying high-risk areas<br>
+                  - Wrong decisions = more loss of life/properties
+                </td>
+              </tr>
+              <tr>
+                <td>Education and drills</td>
+                <td>
+                  - Increase people's awareness/preparedness<br>
+                  - Minimize potential losses
+                </td>
+                <td>People tend to forget unhappy experiences or hazards that happened long time ago</td>
+              </tr>
+              <tr>
+                <td>Rescue systems</td>
+                <td>
+                  - Higher number of lives saved<br>
+                  - Less people killed by disease/dirty water/starvation
+                </td>
+                <td>Rescue delayed by buried roads/collapsed communication systems/corrupt management</td>
+              </tr>
+              <tr>
+                <td>Disaster aid and insurance</td>
+                <td>
+                  - Lower property losses<br>
+                  - Help rebuild homes and economy
+                </td>
+                <td>Corruption → inefficient government</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Opportunities and Risks</h4>
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th style="width: 20%;">Hazard</th>
+                <th style="width: 40%;">Opportunities</th>
+                <th style="width: 40%;">Risks</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Earthquake</td>
+                <td>
+                  - Attract scientists to study mountain science<br>
+                  - Attract mountaineering experts<br>
+                  - Favor development of tourism industry<br>
+                  - Provide job opportunities → higher income<br>
+                  - Enhance economy
+                </td>
+                <td>
+                  <strong>Primary:</strong><br>
+                  - Damage structures<br>
+                  - Kill and injure people<br>
+                  - Shock people and cause panic<br>
+                  - Damage power lines/gas/water pipes<br><br>
+                  <strong>Secondary:</strong><br>
+                  - Breakdown of communication links<br>
+                  - Disruption of transport<br>
+                  - Damage hospitals<br>
+                  - Collapse of dam → widespread flooding<br>
+                  - Fires<br>
+                  - Contaminate water supply<br>
+                  - Trigger tsunamis<br>
+                  - Aftershocks → collapse of weakened structures
+                </td>
+              </tr>
+              <tr>
+                <td>Tsunami</td>
+                <td>-</td>
+                <td>
+                  - Coastal flooding → wash away beaches<br>
+                  - Uprooting of trees<br>
+                  - Sweep away heavy objects further inland<br>
+                  - Destruction of infrastructure<br>
+                  - Changes to coastline<br>
+                  - Disruption to local ecosystems<br>
+                  - Injuries/loss of life/spread of diseases
+                </td>
+              </tr>
+              <tr>
+                <td>Volcanic Eruption</td>
+                <td>
+                  - Favor development of tourism industry<br>
+                  - Favor development of geothermal power
+                </td>
+                <td>Injuries/loss of life/spread of diseases</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- GEOG C2: RIVER AND COAST -->
+        <section class="app-screen" id="geog-c2-app">
+          <div class="app-header">
+            <div>
+              <h3>[C2] River and Coast</h3>
+              <p class="muted-subtitle">River systems and coastal processes: fluvial erosion, deposition, and marine features.</p>
+            </div>
+            <button class="back-btn" onclick="openApp('geog-screen')">Back to GEOG ALRAS</button>
+          </div>
+
+          <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Characteristics of Sections in Rivers</h4>
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th style="width: 15%;">Feature</th>
+                <th style="width: 20%;">Upper</th>
+                <th style="width: 20%;">Middle</th>
+                <th style="width: 20%;">Lower</th>
+                <th style="width: 25%;">River Mouth</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Altitude</td>
+                <td>High</td>
+                <td>Medium</td>
+                <td>Low</td>
+                <td>Very low</td>
+              </tr>
+              <tr>
+                <td>Gradient</td>
+                <td>Steep</td>
+                <td>Medium</td>
+                <td>Gentle</td>
+                <td>Very gentle</td>
+              </tr>
+              <tr>
+                <td>Water amount</td>
+                <td>Small</td>
+                <td>Medium</td>
+                <td>Large</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>Roughness</td>
+                <td>Very rough</td>
+                <td>Rough</td>
+                <td>Smooth</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>Shape</td>
+                <td>Narrow → V-shaped</td>
+                <td>Wider → V-shaped</td>
+                <td>Very wide</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>Overall energy</td>
+                <td>Little</td>
+                <td>Medium</td>
+                <td>High</td>
+                <td>Very little</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Types of Erosion</h4>
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th style="width: 20%;">Type</th>
+                <th style="width: 80%;">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Headward</td>
+                <td>Strength slope of bank of river source → overhanging rocks fall down → lengthen river channel → river source extend backward</td>
+              </tr>
+              <tr>
+                <td>Vertical</td>
+                <td>River removes rock from its bed in upper course → deepen river channel</td>
+              </tr>
+              <tr>
+                <td>Lateral</td>
+                <td>River removes rock along the bank in middle + lower courses → widen river channel</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Factors Affecting Rate of Erosion</h4>
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th style="width: 20%;">Factor</th>
+                <th style="width: 80%;">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Load</td>
+                <td>Higher load → more erosion. Heavier/angular load → higher potential for erosion</td>
+              </tr>
+              <tr>
+                <td>River energy</td>
+                <td>Steep gradient → higher velocity → higher energy → more erosive power</td>
+              </tr>
+              <tr>
+                <td>Water quality</td>
+                <td>Acidic water → more corrosion</td>
+              </tr>
+              <tr>
+                <td>Rock</td>
+                <td>More cracks/soluble materials → more erosion</td>
+              </tr>
+              <tr>
+                <td>Deforestation</td>
+                <td>Less vegetation cover → higher overland flow → more rocks/stones washed into river</td>
+              </tr>
+              <tr>
+                <td>Urbanization</td>
+                <td>More surfaces covered with cement → less infiltration → more river discharge → higher energy</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Types of Transportation</h4>
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th style="width: 20%;">Type</th>
+                <th style="width: 80%;">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Suspension</td>
+                <td>Fine/light materials carried along → does not touch river bed</td>
+              </tr>
+              <tr>
+                <td>Traction</td>
+                <td>Large/heavy boulders/rocks → rolled/dragged along river bed</td>
+              </tr>
+              <tr>
+                <td>Saltation</td>
+                <td>Small stones/pebbles → bounce along river bed</td>
+              </tr>
+              <tr>
+                <td>Solution</td>
+                <td>Soluble materials → dissolved → carried downstream</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">River Landforms</h4>
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th style="width: 25%;">Course</th>
+                <th style="width: 75%;">Landforms</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Upper Course</td>
+                <td>
+                  <strong>V-shaped valleys:</strong> Active vertical erosion → river valley becomes deeper<br>
+                  <strong>Interlocking spurs:</strong> River cannot go through obstacles → forced to zigzag<br>
+                  <strong>Rapids/Waterfall/Gorges:</strong> River flows over more resistant rocks → erode less resistant rocks
+                </td>
+              </tr>
+              <tr>
+                <td>Middle Course</td>
+                <td>
+                  <strong>Meanders:</strong> Outer bank → erosion → higher water velocity. Inner bank → deposition → slip-off slope
+                </td>
+              </tr>
+              <tr>
+                <td>Lower Course</td>
+                <td>
+                  <strong>Oxbow lakes:</strong> Meanders grow closer → flood → river cuts through bends → abandoned channel<br>
+                  <strong>Floodplains/Levees:</strong> Flood water carry load → repeated flooding → build up floodplain<br>
+                  <strong>Braided streams:</strong> Dry season → deposition → river splits into several separated channels
+                </td>
+              </tr>
+              <tr>
+                <td>River Mouth</td>
+                <td>
+                  <strong>Deltas:</strong> River enters sea → lower speed → deposits load → extends into sea<br>
+                  <strong>Lagoons:</strong> Sediments block river channel → river split into small channels
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Waves - Types</h4>
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th style="width: 20%;">Feature</th>
+                <th style="width: 40%;">Constructive Waves</th>
+                <th style="width: 40%;">Destructive Waves</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Properties</td>
+                <td>Swash > backwash</td>
+                <td>Backwash > swash</td>
+              </tr>
+              <tr>
+                <td>Formation</td>
+                <td>Calm weather → weak wind</td>
+                <td>Strong winds/storms</td>
+              </tr>
+              <tr>
+                <td>Energy</td>
+                <td>Dispersed/weak</td>
+                <td>Concentrated/strong</td>
+              </tr>
+              <tr>
+                <td>Work</td>
+                <td>Wave deposition</td>
+                <td>Wave erosion</td>
+              </tr>
+              <tr>
+                <td>Beach shape</td>
+                <td>Wide/flat</td>
+                <td>Narrow/steep</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Coastal Landforms</h4>
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th style="width: 25%;">Type</th>
+                <th style="width: 75%;">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Constructive Waves</td>
+                <td>
+                  <strong>Beaches:</strong> Building up of sand in sheltered areas<br>
+                  <strong>Spits:</strong> Long narrow deposits of sediments attached to land → extend out into sea<br>
+                  <strong>Bars:</strong> Ridges of sediments parallel to the coast → completely blocked off a bay<br>
+                  <strong>Tombolos:</strong> Spits join island to mainland<br>
+                  <strong>Lagoons:</strong> Water trapped behind bars
+                </td>
+              </tr>
+              <tr>
+                <td>Destructive Waves</td>
+                <td>
+                  <strong>Notch:</strong> Land undercut to form notch<br>
+                  <strong>Sea cliffs:</strong> Overhanging parts collapse → steep rock face<br>
+                  <strong>Wave-cut platforms:</strong> Flat rock surface<br>
+                  <strong>Sea caves/arches/stacks:</strong> Lines of weakness exposed to wave erosion → enlarged
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Strategies Against Flooding</h4>
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th style="width: 20%;">Strategy</th>
+                <th style="width: 40%;">Positive</th>
+                <th style="width: 40%;">Negative</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Channelization</td>
+                <td>Deepen and widen river channel → higher water-holding capacity</td>
+                <td>Expensive. Destroy river habitats</td>
+              </tr>
+              <tr>
+                <td>Dredging</td>
+                <td>Deepen river channel → higher water-holding capacity</td>
+                <td>Needs maintenance periodically. Stirs up sediments</td>
+              </tr>
+              <tr>
+                <td>Dykes/Embankments</td>
+                <td>Larger height of river banks → higher water-holding capacity</td>
+                <td>Expensive. Dykes collapse → flooding</td>
+              </tr>
+              <tr>
+                <td>Land use planning</td>
+                <td>Less casualties and property losses</td>
+                <td>Difficult to restrict development</td>
+              </tr>
+              <tr>
+                <td>Afforestation</td>
+                <td>More interception → less overland flow</td>
+                <td>Requires a lot of time to grow trees</td>
+              </tr>
+              <tr>
+                <td>Flood warning systems</td>
+                <td>More time to evacuate</td>
+                <td>Cannot prevent flooding</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Strategies for Coastal Protection</h4>
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th style="width: 20%;">Strategy</th>
+                <th style="width: 40%;">Positive</th>
+                <th style="width: 40%;">Negative</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Sea walls</td>
+                <td>Reflect and deflect waves → protect coast from wave erosion</td>
+                <td>Expensive to build and maintain. May collapse</td>
+              </tr>
+              <tr>
+                <td>Breakwaters</td>
+                <td>Break incoming waves → less erosion power</td>
+                <td>Expensive. Cannot limit erosion elsewhere</td>
+              </tr>
+              <tr>
+                <td>Rock armor/rip-rap</td>
+                <td>Easy to build. Cheap and easy to maintain</td>
+                <td>Looks unnatural. Limits access to beaches</td>
+              </tr>
+              <tr>
+                <td>Beach nourishment</td>
+                <td>Looks natural. Slows down removal of beach materials</td>
+                <td>Short term solution only</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- GEOG C3: INDUSTRY -->
+        <section class="app-screen" id="geog-c3-app">
+          <div class="app-header">
+            <div>
+              <h3>[C3] Industry</h3>
+              <p class="muted-subtitle">Industrial geography: location factors, industrial systems, and economic impacts.</p>
+            </div>
+            <button class="back-btn" onclick="openApp('geog-screen')">Back to GEOG ALRAS</button>
+          </div>
+
+          <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">IT Industry in USA - Nature</h4>
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th style="width: 30%;">Nature</th>
+                <th style="width: 70%;">Mode of Production</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  - Fabrication<br>
+                  - Light<br>
+                  - Capital-intensive<br>
+                  - High-tech<br>
+                  - R&D intensive<br>
+                  - High value-added
+                </td>
+                <td>
+                  - Multi-point / transnational production<br>
+                  - Scattered production units<br>
+                  - Global supply chain<br>
+                  - Assembling of components from different suppliers
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Spatial Distribution of IT Industry</h4>
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th style="width: 15%;">Stage</th>
+                <th style="width: 20%;">Location</th>
+                <th style="width: 65%;">Locational Factors</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>R&D</td>
+                <td>MDC → Silicon Valley in USA</td>
+                <td>
+                  <strong>Transport:</strong> well-established transport → high accessibility<br>
+                  <strong>Labor:</strong> a number of universities nearby // expertise pool // favor training of qualified personnel or joint research<br>
+                  <strong>Land:</strong> flat relief // land for further expansion // proximity to financial centres<br>
+                  <strong>Capital:</strong> easy access to venture capital // better legal protection of intellectual property<br>
+                  <strong>Agglomeration economies:</strong> better reputation // cooperation in conducting researches // sharing information
+                </td>
+              </tr>
+              <tr>
+                <td>Production</td>
+                <td>MDC → USA (higher tech skilled workers)<br>LDC → Indonesia / Vietnam</td>
+                <td>
+                  <strong>Labor:</strong> abundant cheap and semi-skilled labor for assembling → lower labor costs<br>
+                  <strong>Capital:</strong> large amount of foreign investment // low tax rate<br>
+                  <strong>Land:</strong> low land costs<br>
+                  <strong>Government:</strong> more lenient environmental regulation
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Benefit of Multi-point Production</h4>
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th style="width: 100%;">Benefits</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  - Reduce production cost<br>
+                  - Enlarge market<br>
+                  - Space out production process / regional specialization<br>
+                  - Fully utilize human resources in different parts of the world<br>
+                  - Economic globalization
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Relocation: LDCs to MDCs</h4>
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th style="width: 25%;">Benefits to LDCs</th>
+                <th style="width: 25%;">Benefits to TNCs</th>
+                <th style="width: 25%;">Disadvantages to LDCs</th>
+                <th style="width: 25%;">Relevant Alleviations</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  - More land released<br>
+                  - Lowers pollution level<br>
+                  - Improves quality of life<br>
+                  - Better land use planning<br>
+                  - Favors development of local enterprises
+                </td>
+                <td>
+                  - Specialization → division of labors between LDCs and MDCs<br>
+                  - Changes in employment structure → tertiary industry grows rapidly<br>
+                  - Increase in world trade → globalization in production<br>
+                  - Economic interdependence
+                </td>
+                <td>
+                  - Decrease in GDP<br>
+                  - Reduction in value-added industrial input<br>
+                  - Economic recession<br>
+                  - Loss of foreign investments<br>
+                  - Less tax revenue<br>
+                  - Unemployment<br>
+                  - Social unrest
+                </td>
+                <td>
+                  - Introduce new technology<br>
+                  - Close down of inefficient plants / merge with effective ones<br>
+                  - Strengthen training of managerial talents / skilled labor<br>
+                  - Improve transport networks<br>
+                  - Attract foreign investments from neighbouring countries
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Relocation: MDCs to LDCs</h4>
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th style="width: 25%;">Benefits to MDCs</th>
+                <th style="width: 25%;">Benefits to TNCs</th>
+                <th style="width: 25%;">Disadvantages to MDCs</th>
+                <th style="width: 25%;">Relevant Alleviations</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  - Easier to control intellectual property rights<br>
+                  - More local investment<br>
+                  - Lowers pollution level<br>
+                  - Better land use planning<br>
+                  - Favors development of high tech industries<br>
+                  - More land released
+                </td>
+                <td>
+                  - Specialization → more division of labors between LDCs and MDCs<br>
+                  - Changes in employment structure → tertiary industry grows more rapidly<br>
+                  - Increase in world trade → globalization in production<br>
+                  - Higher economic interdependence
+                </td>
+                <td>
+                  - More serious pollution problems<br>
+                  - More land occupied<br>
+                  - More unemployment<br>
+                  - Decrease in GDP
+                </td>
+                <td>
+                  - Attract investment by improving infrastructure<br>
+                  - Provided tax incentives for manufacturing<br>
+                  - Retrain laid-off factory workers with skills working in other sectors<br>
+                  - Invest in tertiary education to cultivate workers for high-skilled jobs<br>
+                  - Increase R&D investment to support manufacturing innovation<br>
+                  - Provide unemployment benefits
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Feasibility of Relocation from LDC to MDC</h4>
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th style="width: 20%;">Feasibility</th>
+                <th style="width: 80%;">Reason</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Feasible</td>
+                <td>
+                  - Labor with higher productivity<br>
+                  - Higher automation level<br>
+                  - Higher political stability in MDC<br>
+                  - Favorable government policies (tax incentive // technical / financial support)
+                </td>
+              </tr>
+              <tr>
+                <td>Infeasible</td>
+                <td>
+                  - High relocation cost<br>
+                  - Increase in production cost / expenses on environmental conservation<br>
+                  - Stronger trade / labor unions in MDC<br>
+                  - Less flexible in manpower management / stricter labor regulation<br>
+                  - Lower competitiveness // unfavorable for expansion in overseas market
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Iron and Steel Industry in China - Location Evolution</h4>
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th style="width: 20%;">Period</th>
+                <th style="width: 20%;">Location</th>
+                <th style="width: 30%;">Evidence</th>
+                <th style="width: 30%;">Advantages</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Before 1949</td>
+                <td>NE China</td>
+                <td>
+                  - Land: more flatland / lowland<br>
+                  - Transportation: railway / highway nearby<br>
+                  - Raw materials: proximity to iron ore / coal<br>
+                  - Coastal location: near the sea
+                </td>
+                <td>
+                  - Favors further expansion<br>
+                  - Convenient transport for lowering transport costs<br>
+                  - Lower transport costs for raw materials<br>
+                  - Easier to import raw materials and export finished goods<br>
+                  - Water available for cooling from river
+                </td>
+              </tr>
+              <tr>
+                <td>1950s ~ 1970s</td>
+                <td>Western China</td>
+                <td>
+                  - Raw materials / power resources: presence of coalfield / iron ore<br>
+                  - Labor: nearby settlement<br>
+                  - Year of establishment: established in 1951<br>
+                  - <strong>Constraints:</strong> Water shortage (annual rainfall less than 100mm), Remoteness (inland China), Low accessibility (hilly / rugged relief)
+                </td>
+                <td>
+                  - Availability of raw materials to reduce transport costs<br>
+                  - Supply of abundant labor for manufacturing<br>
+                  - Industrial inertia<br>
+                  - <strong>Negative:</strong> Insufficient water for cooling, Hinder transportation
+                </td>
+              </tr>
+              <tr>
+                <td>1978 ~ 2000s</td>
+                <td>Eastern / Southern China</td>
+                <td>Coastal location → eastern coast (near the sea)</td>
+                <td>
+                  - Easier to import of raw materials and export of finished goods<br>
+                  - Reclamation is possible for further expansion<br>
+                  - Water available for cooling from river
+                </td>
+              </tr>
+              <tr>
+                <td>After 2000s</td>
+                <td>Urumqi / Shanghai</td>
+                <td>
+                  - Urumqi: NW / interior / remote areas<br>
+                  - Shanghai: At eastern / coastal region
+                </td>
+                <td>
+                  - <strong>Urumqi:</strong> abundant iron ores and coal mines nearby, railway transport linked to market<br>
+                  - <strong>Shanghai:</strong> Cheap sea transport, Bulk carriers, Linked with coal mine and iron ore by railways, Large market, Scrap iron from urban areas
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Factors Leading to Clustering of Iron and Steel → Coastal Shift</h4>
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th style="width: 25%;">Locational Factors</th>
+                <th style="width: 75%;">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Technological improvement</td>
+                <td>
+                  - Allow the use of scrap iron and steel as substitutes (new furnaces)<br>
+                  - Allow the use of electricity → higher energy efficiency (electric-arc furnaces): coastal cities had abundant supply of scrap iron and steel // close to cities / markets
+                </td>
+              </tr>
+              <tr>
+                <td>Transportation improvement</td>
+                <td>
+                  - Allow the use of bulk carriers of cargo ships and advancement in railway network<br>
+                  - Reduce transport costs and time of heavy and bulky materials<br>
+                  - Close to markets to facilitate the easy import of raw materials and export of finished goods
+                </td>
+              </tr>
+              <tr>
+                <td>Government policies</td>
+                <td>
+                  - 1978 Reform and Opening Up Policy → special economic zones in coastal regions // encourage foreign investments<br>
+                  - 1980s → "Have some regions developed first" → coastal regions are chosen → clustering close to eastern coastal region
+                </td>
+              </tr>
+              <tr>
+                <td>Market and agglomeration economies</td>
+                <td>
+                  - Coastal industrial belt and major industrial region<br>
+                  - Presence of large domestic markets in the east<br>
+                  - Plenty of iron and steel-consuming industries: shipbuilding / car-making<br>
+                  - Large demand for iron and steel products<br>
+                  - Agglomeration economies → more skilled labor // exchange of market and technical info // build business reputation
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- GEOG C5: FARMING AND FAMINE -->
+        <section class="app-screen" id="geog-c5-app">
+          <div class="app-header">
+            <div>
+              <h3>[C5] Farming and Famine</h3>
+              <p class="muted-subtitle">Agricultural systems and food security: farming practices and famine issues.</p>
+            </div>
+            <button class="back-btn" onclick="openApp('geog-screen')">Back to GEOG ALRAS</button>
+          </div>
+
+          <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Sahel - Physical Constraints (Climate)</h4>
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th style="width: 25%;">Problem</th>
+                <th style="width: 25%;">Explanation</th>
+                <th style="width: 25%;">Impact</th>
+                <th style="width: 25%;">Adaptation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>High annual mean temperature<br>Large annual range of temperature</td>
+                <td>Low latitude</td>
+                <td>
+                  - Low carrying capacity<br>
+                  - Low water input<br>
+                  - Shifting with rainfall<br>
+                  - Unsuitable for arable farming
+                </td>
+                <td>
+                  Nomadic herding → livestock rearing → transhumance → search for water and pasture
+                </td>
+              </tr>
+              <tr>
+                <td>Low annual rainfall</td>
+                <td>
+                  - Interior location<br>
+                  - Less maritime influence
+                </td>
+                <td rowspan="2">Drought / water shortage throughout the year</td>
+                <td rowspan="3">
+                  - Extensive // subsistence farming<br>
+                  - Cultivation of drought-resistant species (goat, camel) → low water consumption
+                </td>
+              </tr>
+              <tr>
+                <td>Uneven distribution of rainfall</td>
+                <td>
+                  - Onshore wind brings summer rainfall<br>
+                  - Offshore wind brings little rainfall in winter → summer rain
+                </td>
+              </tr>
+              <tr>
+                <td>High potential evapotranspiration rate<br>Annual potential evapotranspiration rate exceeds annual rainfall</td>
+                <td>Drought</td>
+                <td>Limited scale of farming // Limited choices of crops // livestock</td>
+                <td>Limiting number of livestock</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Sahel - Cultural Constraints</h4>
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th style="width: 20%;">Category</th>
+                <th style="width: 25%;">Problem</th>
+                <th style="width: 25%;">Explanation</th>
+                <th style="width: 30%;">Impact</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Population</strong></td>
+                <td>Population increase continuously</td>
+                <td>
+                  - Increase in demand on food<br>
+                  - Overgrazing<br>
+                  - Over-cultivation
+                </td>
+                <td>
+                  - Population growth rate higher than increase in number of livestock<br>
+                  - Number of livestock per capita declines<br>
+                  - Increasing number of livestock may exceed carrying capacity of land<br>
+                  - Trampling of soil<br>
+                  - Land desertification → further lowering productivity → misuse of water resources
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Educational</strong></td>
+                <td>Low educational and technological level</td>
+                <td>
+                  - Low farming technology<br>
+                  - Low literacy rate
+                </td>
+                <td>
+                  People are poorly educated → unable to overcome physical constraints<br>
+                  Lack knowledge to apply modern farming technology → adopt primitive farming
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Capital</strong></td>
+                <td>Low capital input</td>
+                <td>Poverty</td>
+                <td>
+                  Low farming income → less able to afford modern farming technology → lack money to buy imported food
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Political</strong></td>
+                <td>Unstable political environment</td>
+                <td>
+                  - Civil war<br>
+                  - Conflicts<br>
+                  - Corruption
+                </td>
+                <td>
+                  - Farmers are forced to leave their farms<br>
+                  - Farmland is destroyed by armed people<br>
+                  - Farmers lose seeding and growing season → further lowering land productivity
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Southern California - Physical Constraints</h4>
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th style="width: 20%;">Category</th>
+                <th style="width: 25%;">Problem</th>
+                <th style="width: 30%;">Explanation</th>
+                <th style="width: 25%;">Impact</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Climate</strong></td>
+                <td>Low annual rainfall</td>
+                <td>
+                  - Central Valley is in rain shadow → moist air cannot reach inland<br>
+                  - Southern tip of SC affected by offshore winds for most of the years → high evaporation rate
+                </td>
+                <td>Drought / water shortage throughout the year</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Extreme climate</td>
+                <td>
+                  - Occasional frosts<br>
+                  - Wildfires<br>
+                  - Drought
+                </td>
+                <td>Short growing season</td>
+              </tr>
+              <tr>
+                <td><strong>Relief</strong></td>
+                <td>Rugged (>400m)</td>
+                <td>
+                  - Coast ranges<br>
+                  - Sierra Nevada<br>
+                  - Desert (Mojave Desert, Colorado Desert)
+                </td>
+                <td>Lack of arable land</td>
+              </tr>
+              <tr>
+                <td><strong>Soil</strong></td>
+                <td>Infertile / Alkaline</td>
+                <td>
+                  - Little organic matter<br>
+                  - High temperature with low rainfall → difficult for rocks to decompose into soil + release nutrients<br>
+                  - High evaporation rate → salts beneath soils to surface (salinization)
+                </td>
+                <td>
+                  Must rely on chemical fertilizers to improve fertility<br>
+                  Low yield<br>
+                  Not suitable for growing crops
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Pest</strong></td>
+                <td>Exotic crops</td>
+                <td>Brought to areas that lack natural predators of pests → 25 major pest species</td>
+                <td>
+                  - Farmers have to apply heavy doses of pesticides → harmful for human health<br>
+                  - Each species causes econ loss reaching over USD $1 million
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4 style="color: var(--primary); font-size: 1.2rem; margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent);">Farming Adaptations</h4>
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th style="width: 20%;">Type</th>
+                <th style="width: 40%;">Effective</th>
+                <th style="width: 40%;">Consequence</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Soil and Water Conservation</strong></td>
+                <td>
+                  <strong>Fallowing:</strong> Nutrients can recover<br>
+                  <strong>Cover cropping:</strong> Leguminous crops fix nitrogen → replenish soil nutrients → protect soil from erosion → improve water-holding capacity<br>
+                  <strong>Mulching:</strong> Keep soil moisture → reduce evaporation → suppress weed growth<br>
+                  <strong>Planting windbreaks:</strong> Slow down soil erosion → reduce evaporation<br>
+                  <strong>Agroforestry:</strong> Control soil erosion → enrich soil → provide timber and fruits
+                </td>
+                <td>
+                  Cannot change climatic conditions → cannot overcome climatic constraints
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Irrigation System</strong></td>
+                <td>
+                  - More stable water supply throughout the year<br>
+                  - More arable land<br>
+                  - More choices of agricultural produce<br>
+                  - Higher yield → higher income and profit
+                </td>
+                <td>
+                  - Over-irrigation → salinization<br>
+                  - Water table drops<br>
+                  - Depletion of groundwater
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Chemicals</strong></td>
+                <td>
+                  - Provide nutrients → increase yield → increase crop quality<br>
+                  - Control pests → increase yield → increase crop quality<br>
+                  - Kill weeds which use up soil nutrients
+                </td>
+                <td>
+                  - Upset ecological system → Eutrophication → excess growth of algae<br>
+                  - Reduce biodiversity → contamination of soil and food → pest species resistant to pesticides (superbugs)<br>
+                  - Block out sunlight → prevent photosynthesis → remove oxygen in water
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Biotechnology</strong></td>
+                <td>
+                  - Development of drought-resistant crops<br>
+                  - Require less water and chemicals<br>
+                  - Modified to suit climatic conditions<br>
+                  - Improve farm productivity → increase food security
+                </td>
+                <td>
+                  - Cannot change climatic conditions → unable to increase water supply<br>
+                  - Increase in food production depresses food price → farmers in debt<br>
+                  - Unknown effects on human health<br>
+                  - Over-cultivation → more vulnerable to natural hazards
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Mechanization</strong></td>
+                <td>
+                  - Protect temperature-sensitive crops in winter<br>
+                  - Protect crops from wind and frosts<br>
+                  - Improve farm productivity → increase income<br>
+                  - Stimulate farm-related industries → improve quality of life
+                </td>
+                <td>
+                  - Cost of buying machines → farmers in debts<br>
+                  - Unemployment
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- GEOG C6: TROPICAL RAINFORESTS -->
+        <section class="app-screen" id="geog-c6-app">
+          <div class="app-header">
+            <div>
+              <h3>[C6] Tropical Rainforests</h3>
+              <p class="muted-subtitle">Rainforest ecosystems: biodiversity, climate, and human impacts.</p>
+            </div>
+            <button class="back-btn" onclick="openApp('geog-screen')">Back to GEOG ALRAS</button>
+          </div>
+
+          <div style="background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 24px; margin-bottom: 24px;">
+            <p style="color: var(--muted); font-size: 0.95rem;">Tropical Rainforest content is being developed. Please refer to the source material for complete notes.</p>
+          </div>
+        </section>
+
+        <!-- GEOG C7: CLIMATE CHANGE -->
+        <section class="app-screen" id="geog-c7-app">
+          <div class="app-header">
+            <div>
+              <h3>[C7] Climate Change</h3>
+              <p class="muted-subtitle">Climate science and change: causes, impacts, and mitigation strategies.</p>
+            </div>
+            <button class="back-btn" onclick="openApp('geog-screen')">Back to GEOG ALRAS</button>
+          </div>
+
+          <div style="background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 24px; margin-bottom: 24px;">
+            <p style="color: var(--muted); font-size: 0.95rem;">Climate Change content is being developed. Please refer to the source material for complete notes.</p>
+          </div>
+        </section>
+
+        <!-- GEOG E1: DYNAMIC EARTH -->
+        <section class="app-screen" id="geog-e1-app">
+          <div class="app-header">
+            <div>
+              <h3>[E1] Dynamic Earth</h3>
+              <p class="muted-subtitle">Dynamic Earth: types of rocks, formation, internal and external processes.</p>
+            </div>
+            <button class="back-btn" onclick="openApp('geog-screen')">Back to GEOG ALRAS</button>
+          </div>
+
+          <div style="background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 24px; margin-bottom: 24px;">
+            <p style="color: var(--muted); font-size: 0.95rem;">Dynamic Earth content is being developed. Please refer to the source material for complete notes.</p>
+          </div>
+        </section>
+
         <!-- WEBSITE UPDATES SCREEN -->
         <section class="app-screen" id="website-updates-app">
           <div class="app-header">
